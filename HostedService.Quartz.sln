@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28016.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HostedService.Quartz", "HostedService.Quartz\HostedService.Quartz.csproj", "{E5B2B2F1-0DA8-45A1-B12E-A161DBA38E6A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackgroundService", "BackgroundService\BackgroundService.csproj", "{81F71226-AAD2-476C-ADDE-9D1FEEEF3904}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{E5B2B2F1-0DA8-45A1-B12E-A161DBA38E6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E5B2B2F1-0DA8-45A1-B12E-A161DBA38E6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E5B2B2F1-0DA8-45A1-B12E-A161DBA38E6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81F71226-AAD2-476C-ADDE-9D1FEEEF3904}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81F71226-AAD2-476C-ADDE-9D1FEEEF3904}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81F71226-AAD2-476C-ADDE-9D1FEEEF3904}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81F71226-AAD2-476C-ADDE-9D1FEEEF3904}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
